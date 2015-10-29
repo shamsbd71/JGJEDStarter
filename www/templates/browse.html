@@ -1,0 +1,23 @@
+<ion-view view-title="Browse" class="jed-browse">
+  <ion-content>
+  
+  	<div class="list">
+		<a class="item item-thumbnail-left" href="#/app/extensions/{{extension.id}}"
+			ng-repeat="extension in extensions">
+			<img src="{{extension.img}}">
+			
+			<h2>{{extension.name}}</h2>
+			<p>{{extension.desc}}</p>
+			
+			<span class="item-note">
+				<i class="icon ion-chatbubble-working"></i> {{extension.rating}}
+			</span>	
+			
+			<span class="extension-type">
+				<span ng-repeat="letter in extension.type" class="button button-small extension-type-{{letter}}">{{letter}}</span>&nbsp;
+			</div>					
+		</a>
+	</div>
+      
+  </ion-content>
+</ion-view>
