@@ -9,13 +9,13 @@
 			<h2>{{extension.name}}</h2>
 			<p>{{extension.desc}}</p>
 			
+			<p class="extension-type">
+				<span ng-repeat="letter in extension.type" class="button button-small extension-type-{{letter}}">{{letter}}</span>&nbsp;
+			</p>	
+			
 			<span class="item-note">
 				<i class="icon ion-chatbubble-working"></i> {{extension.rating}}
-			</span>	
-			
-			<span class="extension-type">
-				<span ng-repeat="letter in extension.type" class="button button-small extension-type-{{letter}}">{{letter}}</span>&nbsp;
-			</div>					
+			</span>					
 		</a>
 	</div>
       

@@ -35,7 +35,7 @@
     <preference name="permissions" value="none" />
     <preference name="orientation" value="default" />
     <preference name="target-device" value="universal" />
-    <preference name="fullscreen" value="true" />
+    <preference name="fullscreen" value="false" />
     <preference name="webviewbounce" value="false" />
     <preference name="prerendered-icon" value="true" />
     <preference name="stay-in-webview" value="false" />
@@ -55,8 +55,7 @@
 
 	<preference name="auto-hide-splash-screen" value="false" />
 	<preference name="AutoHideSplashScreen" value="false" />
-
-<!-- 
+	
     <icon gap:platform="android" src="icon.png" />         
     <icon gap:platform="android" gap:qualifier="ldpi" src="icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="icon-48-mdpi.png" />
@@ -71,8 +70,9 @@
     
     <icon gap:platform="ios" height="76" src="icon-76.png" width="76" />
     <icon gap:platform="ios" height="120" src="icon-120.png" width="120" />
-    <icon gap:platform="ios" height="152" src="icon-152.png" width="152" />
-    
+    <icon gap:platform="ios" height="152" src="icon-152.png" width="152" />	
+
+<!-- 
     <preference name="SplashScreen" value="splash" />
     <gap:splash gap:platform="android" gap:qualifier="port-ldpi" src="screen-android-ldpi-portrait.png" />
     <gap:splash gap:platform="android" gap:qualifier="port-mdpi" src="screen-android-mdpi-portrait.png" />

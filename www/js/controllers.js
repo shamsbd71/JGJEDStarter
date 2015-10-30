@@ -1,12 +1,19 @@
-/**
- * @package       Joomla.Apps
- * @subpackage    com_apps
+/*!
+ * @package: JED Starter App
  * 
- * @author        Anibal Horacio Sanchez Perez @anibal_sanchez
+ * @author Name: Andrea Gentil & Anibal Sanchez, JoomGap.com Email:
+ * team[at]joomgap.com Url: http://www.JoomGap.com
  * 
- * @copyright     Copyright (C) 2005 - 2015 Open Source Matters, Inc. All rights reserved.
- * @license       GNU General Public License version 2 or later; see LICENSE.txt
- * @link          http://extensions.joomla.org
+ * @copyright Copyright (C) 2015 Andrea Gentil & Anibal Sanchez. All rights
+ * reserved. 
+ * 
+ * @license http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
+ * 
+ * This program is distributed in the hope that it will be useful, but WITHOUT
+ * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS
+ * FOR A PARTICULAR PURPOSE. See the GNU General Public License for more
+ * details.
+ * 
  */
 
 /* globals angular,cordova */

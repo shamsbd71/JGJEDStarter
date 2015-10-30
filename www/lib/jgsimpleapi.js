@@ -1,11 +1,13 @@
-/*
- * ! @package: JoomGap Library
+/*!
+ * @package: JoomGap Library
  * 
  * @author Name: Andrea Gentil & Anibal Sanchez, JoomGap.com Email:
  * team[at]joomgap.com Url: http://www.JoomGap.com
  * 
  * @copyright Copyright (C) 2015 Andrea Gentil & Anibal Sanchez. All rights
- * reserved. @license http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
+ * reserved. 
+ * 
+ * @license http://www.gnu.org/licenses/gpl-3.0.html GNU/GPL
  * 
  * This program is distributed in the hope that it will be useful, but WITHOUT
  * ANY WARRANTY; without even the implied warranty of MERCHANTABILITY or FITNESS

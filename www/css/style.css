@@ -1,14 +1,16 @@
 .bar-positive .title {
-	background: url("/img/Joomla-brandmark-flat-RGB.svg") no-repeat scroll right;
+    background-image: url("/img/Joomla-brandmark-flat-RGB-60.png");
+    background-image: url("/img/Joomla-brandmark-flat-RGB.svg"), linear-gradient(transparent, transparent);
+    
+    background-position: right;
+    background-repeat: no-repeat;
+	background-attachment: scroll;        
+    background-size: auto 80%;
 }
 
 .jed-browse .item-thumbnail-left > img:first-child {
 	height: auto;
 }
-
-.jed-browse .item p {
-	white-space: normal;
-} 
 
 .jed-browse .extension-type {
 	float: left;
