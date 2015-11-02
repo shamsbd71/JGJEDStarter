@@ -19,19 +19,29 @@
 /* globals angular,cordova */
 
 "use strict";
-angular.module('starter.controllers', ['jgSimpleApi', 'starter.categories-service', 'starter.extensions-service'])
+angular.module('starter.controllers', ['jgSimpleApi', 'starter.categories-service', 'starter.extensions-service', 'ionicProcessSpinner'])
 
 .controller('AppCtrl', function($scope) {
 })
 
 .controller('CategoriesCtrl', function($scope, Categories) {
+
+  $scope.isProcessing = true;
+  
   Categories.query().then(function(cats) {
     $scope.categories = cats;
+  }).finally(function() {
+    $scope.isProcessing = false;
   });
 })
 
-.controller('ExtensionsCtrl', function($scope, Extensions) {
+.controller('PopularCtrl', function($scope, Extensions) {
+  
+  $scope.isProcessing = true;
+  
   Extensions.query().then(function(exts) {
     $scope.extensions = exts;
-  });  
+  }).finally(function() {
+    $scope.isProcessing = false;
+  });
 });

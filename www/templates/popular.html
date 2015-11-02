@@ -1,6 +1,10 @@
 <ion-view view-title="Browse" class="jed-browse">
   <ion-content>
   
+	<p class="text-center">
+		<ion-process-spinner processing="isProcessing"></ion-process-spinner>
+	</p>  
+  
   	<div class="list">
 		<a class="item item-thumbnail-left" href="#/app/extensions/{{extension.id}}"
 			ng-repeat="extension in extensions">

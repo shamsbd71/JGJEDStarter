@@ -67,12 +67,12 @@ angular.module('starter', ['ionic', 'starter.controllers', 'jgSimpleApi'])
             }
           })
 
-          .state('app.browse', {
-            url: '/browse',
+          .state('app.popular', {
+            url: '/popular',
             views: {
               'menuContent': {
-                templateUrl: 'templates/browse.html',
-                controller: 'ExtensionsCtrl'
+                templateUrl: 'templates/popular.html',
+                controller: 'PopularCtrl'
               }
             }
           })          
