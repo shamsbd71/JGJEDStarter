@@ -4,7 +4,7 @@
 			<ion-process-spinner processing="isProcessing"></ion-process-spinner>
 		</p>
 	
-		<ion-item ng-repeat="category in categories" href="#/app/categories/{{category.id}}">
+		<ion-item ng-repeat="category in categories" disabled-href="#/app/categories/{{category.id}}">
 			{{category.name}}
 		</ion-item>
 	  </ion-list>
